@@ -1,0 +1,6 @@
+"unit_id","test_unit","Comments"
+,SetLogin,Login unit test
+1,"dynamic([$surl],[$iurl],[$purl],[$susr],[$spwd],[$iusr],[$ipwd],[$pusr],[$ppwd],[$origin],[$destination],[$service_name],[$agt],[$apwd],[$tagt],[$tpwd],[$subusr],[$subusrpwd],[$subagt],[$subagtpwd])",
+2,"goto_page($surl)",
+3,"sleep(1)",
+4,"match_text(""Sign In"",""Page"",""Login Credentials Set Successfully"",""Failed to set Login Credentials"")",
